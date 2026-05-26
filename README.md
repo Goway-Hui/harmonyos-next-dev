@@ -50,6 +50,14 @@ harmonyos-next-dev/
 ├── CHANGELOG.md                 # 版本历史
 ├── LICENSE                      # MIT
 ├── .gitignore
+├── harmonyos-apply-architecture-best-practices/  # 🏗 架构最佳实践 Skill
+│   └── SKILL.md                 # 分层架构 (UI/Logic/Data) + MVVM + Repository
+├── harmonyos-fix-layout-issues/                    # 🔧 布局排错 Skill
+│   └── SKILL.md                 # Flex/Row/Column 溢出诊断与修复
+├── harmonyos-add-widget-test/                      # 🧪 组件测试 Skill
+│   └── SKILL.md                 # @ohos/hypium 单元测试编写指南
+├── harmonyos-add-integration-test/                 # 🔗 集成测试 Skill
+│   └── SKILL.md                 # 端到端测试 + hdc 真机自动化
 └── harmonyos-next-dev/          # 📦 Skill 主目录
     ├── SKILL.md                 # 主定义文件（YAML frontmatter）
     ├── assets/                  # 11 个即用型代码模板
@@ -95,6 +103,10 @@ harmonyos-next-dev/
 - 覆盖 HarmonyOS NEXT (API 20+) 全栈开发知识
 - 20 个参考文档 + 11 个代码模板
 - 支持 ArkTS、ArkUI、应用框架、系统能力、媒体、图形、AI、元服务等 20+ 主题
+- 包含分层架构最佳实践 Skill（UI/Logic/Data + MVVM + Repository 模式）
+- 包含布局排错 Skill（Flex/Row/Column 溢出诊断修复）
+- 包含组件测试 Skill（@ohos/hypium 单元测试）
+- 包含集成测试 Skill（端到端 + hdc 真机自动化）
 
 ## License
 

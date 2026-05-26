@@ -17,6 +17,11 @@ AI 助手应根据用户输入中的关键词自动激活对应 Skill：
 | DevEco Studio / hvigor / hdc / ohpm | harmonyos-next-dev |
 | HUKS / UserAuth / 生物识别 | harmonyos-next-dev |
 | WaterFlow / Navigation / 状态管理 | harmonyos-next-dev |
+| 架构 / 分层 / MVVM / Repository / 重构 / 可扩展性 | harmonyos-apply-architecture-best-practices |
+| 项目结构 / 代码规范 / 依赖注入 / DI | harmonyos-apply-architecture-best-practices |
+| 布局问题 / 溢出 / 显示不全 / 组件截断 / 布局报错 | harmonyos-fix-layout-issues |
+| 单元测试 / 组件测试 / 测试用例 / hypium / 验证逻辑 | harmonyos-add-widget-test |
+| 集成测试 / 端到端测试 / E2E / 自动化测试流程 | harmonyos-add-integration-test |
 
 ## 使用方式
 
