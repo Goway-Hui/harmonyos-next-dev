@@ -223,6 +223,7 @@ struct Index {
 | 对象字面量错误 | `arkts-no-untyped-obj-literals` | 不定义对象常量，直接使用字面量值 |
 | FontWeight.SemiBold 不存在 | `Property 'SemiBold' does not exist` | 使用 `FontWeight.Medium` 或 `FontWeight.Bold` |
 | FlexAlign.FlexEnd 不存在 | `Property 'FlexEnd' does not exist` | 使用 `FlexAlign.End` |
+| backgroundLinearGradient 不存在 | `Property 'backgroundLinearGradient' does not exist` | 使用 `linearGradient` 替代 |
 
 详细解决方案请参考 [common-build-errors.md](references/common-build-errors.md)
 

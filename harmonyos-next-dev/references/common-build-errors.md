@@ -168,7 +168,35 @@ Property 'FlexEnd' does not exist on type 'typeof FlexAlign'
 
 **解决方案：** 使用 `FlexAlign.End` 替代
 
-### 3.4 常用枚举值速查
+### 3.4 backgroundLinearGradient 不存在
+
+**错误信息：**
+```
+Property 'backgroundLinearGradient' does not exist on type 'ColumnAttribute'
+Property 'backgroundLinearGradient' does not exist on type 'ScrollAttribute'
+```
+
+**原因：** ArkUI 中没有 `backgroundLinearGradient` 属性
+
+**错误示例：**
+```typescript
+Column() { }
+  .backgroundLinearGradient({  // ❌ 错误
+    direction: GradientDirection.Bottom,
+    colors: [['#667eea', 0.0], ['#764ba2', 1.0]]
+  })
+```
+
+**解决方案：** 使用 `linearGradient` 替代
+```typescript
+Column() { }
+  .linearGradient({  // ✅ 正确
+    direction: GradientDirection.Bottom,
+    colors: [['#667eea', 0.0], ['#764ba2', 1.0]]
+  })
+```
+
+### 3.5 常用枚举值速查
 
 | 类型 | 有效值 |
 |------|--------|
