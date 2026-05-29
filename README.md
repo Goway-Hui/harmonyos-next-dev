@@ -60,7 +60,8 @@ harmonyos-next-dev/
 │   └── SKILL.md                 # 端到端测试 + hdc 真机自动化
 └── harmonyos-next-dev/          # 📦 Skill 主目录
     ├── SKILL.md                 # 主定义文件（YAML frontmatter）
-    ├── assets/                  # 11 个即用型代码模板
+    ├── assets/                  # 代码模板
+    │   ├── project-template/    # 🆕 完整项目模板（可直接复制使用）
     │   ├── common-page-structure.ets
     │   ├── list-page-template.ets
     │   ├── state-management-v2-template.ets
@@ -72,7 +73,9 @@ harmonyos-next-dev/
     │   ├── database-crud-template.ets
     │   ├── form-page-template.ets
     │   └── custom-component-template.ets
-    └── references/              # 20 个参考文档
+    └── references/              # 参考文档
+        ├── common-build-errors.md  # 🆕 常见构建错误指南
+        └── ... (其他20个参考文档)
         ├── arkts-language.md
         ├── arkui-components.md
         ├── application-framework.md
@@ -97,6 +100,13 @@ harmonyos-next-dev/
 ```
 
 ## 发布说明
+
+**v1.1.0** — 新增项目模板和常见错误指南
+
+- 新增 `project-template` 完整项目模板，可直接复制使用
+- 新增 `common-build-errors.md` 常见构建错误指南
+- 涵盖配置文件缺失、资源引用错误、ArkTS 编译错误等常见问题
+- 更新 SDK 版本配置为 6.1.0(23)
 
 **v1.0.0** — 初始版本发布
 

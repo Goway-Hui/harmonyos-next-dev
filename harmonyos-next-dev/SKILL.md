@@ -193,6 +193,38 @@ struct Index {
 | 🖱 拖拽能力 | [drag-drop.md](references/drag-drop.md) | 应用内/跨应用拖拽、列表排序、拖拽源/目标、UnifiedData、DragEvent |
 | ♿ 无障碍服务 | [accessibility.md](references/accessibility.md) | AccessibilityExtensionAbility、accessibility标签/属性、高对比度/字体适配、TalkBack |
 | 📱 多设备适配 | [multi-device-adaptation.md](references/multi-device-adaptation.md) | 断点系统、响应式布局、Navigation自适应、折叠屏、栅格策略、尺寸单位 |
+| 🔧 常见构建错误 | [common-build-errors.md](references/common-build-errors.md) | 配置文件缺失、资源引用错误、ArkTS编译错误、项目结构检查清单 |
+
+## 代码模板
+
+| 模板 | 文件 | 用途 |
+|------|------|------|
+| 📦 项目模板 | [project-template/](assets/project-template/) | 从零创建 HarmonyOS NEXT 项目的完整模板 |
+| 📄 通用页面 | [common-page-structure.ets](assets/common-page-structure.ets) | 通用页面结构 |
+| 📋 列表页面 | [list-page-template.ets](assets/list-page-template.ets) | 列表页面模板 |
+| 📝 表单页面 | [form-page-template.ets](assets/form-page-template.ets) | 表单页面模板 |
+| 🔐 登录表单 | [login-form-template.ets](assets/login-form-template.ets) | 登录页面模板 |
+| 📑 Tab 页面 | [tab-page-template.ets](assets/tab-page-template.ets) | Tab 页面模板 |
+| 🌊 瀑布流 | [waterflow-template.ets](assets/waterflow-template.ets) | 瀑布流布局模板 |
+| 📡 网络请求 | [network-request-template.ets](assets/network-request-template.ets) | 网络请求模板 |
+| 💾 数据库 CRUD | [database-crud-template.ets](assets/database-crud-template.ets) | 数据库操作模板 |
+| 🎨 状态管理 V2 | [state-management-v2-template.ets](assets/state-management-v2-template.ets) | 状态管理 V2 模板 |
+| 📦 弹窗底部 | [modal-sheet-template.ets](assets/modal-sheet-template.ets) | 弹窗底部模板 |
+| 🧩 自定义组件 | [custom-component-template.ets](assets/custom-component-template.ets) | 自定义组件模板 |
+
+## 常见构建错误速查
+
+| 错误类型 | 错误信息 | 解决方案 |
+|----------|----------|----------|
+| hvigorfile 缺失 | `Hvigorfile not found` | 创建 `hvigorfile.ts`（根目录用 `appTasks`，模块用 `hapTasks`） |
+| build-profile 缺失 | `Can not find build config file build-profile.json5` | 创建 `entry/build-profile.json5` |
+| main_pages 缺失 | 页面路由配置找不到 | 创建 `resources/base/profile/main_pages.json` |
+| 图标资源未定义 | `The resource reference '$media:app_icon' is not defined` | 使用 `$media:layered_image` 并复制资源文件 |
+| 对象字面量错误 | `arkts-no-untyped-obj-literals` | 不定义对象常量，直接使用字面量值 |
+| FontWeight.SemiBold 不存在 | `Property 'SemiBold' does not exist` | 使用 `FontWeight.Medium` 或 `FontWeight.Bold` |
+| FlexAlign.FlexEnd 不存在 | `Property 'FlexEnd' does not exist` | 使用 `FlexAlign.End` |
+
+详细解决方案请参考 [common-build-errors.md](references/common-build-errors.md)
 
 ## 核心要点速查
 

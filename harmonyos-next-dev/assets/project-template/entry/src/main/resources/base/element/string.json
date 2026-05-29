@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "entry_desc",
+      "value": "My Application"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "My Application"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "MyApp"
+    }
+  ]
+}
